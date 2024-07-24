@@ -1,4 +1,5 @@
 import "package:flutter/material.dart";
+import "package:pin_cod/login/login.dart";
 
 class Register extends StatelessWidget {
   @override
@@ -54,7 +55,12 @@ class Register extends StatelessWidget {
                     minWidth: 330,
                     height: 57,
                     color: Colors.white,
-                    onPressed: () {},
+                    onPressed: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (context) => const Login()),
+                      );
+                    },
                     child: const Text("Login"),
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(15),
