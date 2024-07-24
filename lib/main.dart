@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import "package:pin_code/pin_code/pin_code_main.dart";
+import "package:pin_cod/pin_code/pin_code_main.dart";
 
 
 void main() {

@@ -1,8 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:pin_code/pin_code/num_button.dart';
-import 'package:pin_code/pin_code/for_text.dart';
-import 'package:pin_code/pin_code/pin_dots.dart';
-import "package:pin_code/pin_code/continiue_button.dart";
+
+import "package:pin_cod/pin_code/num_button.dart";
+
+import "package:pin_cod/pin_code/continiue_button.dart";
+import "package:pin_cod/pin_code/pin_dots.dart";
+
+import "package:pin_cod/pin_code/for_text.dart";
 
 class PinCode extends StatefulWidget {
   const PinCode({super.key});
